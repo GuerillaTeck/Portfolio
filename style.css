@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    display: border-box;
+
+}
+.nav-menu li{
+    padding-left: 10px;
+    font-size: large;
+}
+.main{
+     background: rgb(0,6,36);
+    background: linear-gradient(135deg, rgba(0,6,36,1) 52%, rgba(9,121,118,1) 52%, rgba(0,212,255,1) 100%); 
+    /* background-image: url(PwSB.gif); */
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.headlines{
+    font-size: 64px;
+    color:rgb(0, 238, 255); ;
+}
+.headlines-container{
+    margin-top: 0%;
+}
+.first-btn{
+    background-color: rgb(54,116,120);
+    border: none;
+}
+.first-btn:hover{
+    background-color: rgb(43, 92, 95);
+}
+.second-button{
+    border-color: rgb(54,116,120);
+    color: white;
+}
+.second-button:hover{
+    background-color: rgb(54,116,120);
+}
+.imagebox{
+    width: 100%;
+}
+.cornerround{
+    
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+.down{
+   color:white;
+}
+.headlines{
+    font-weight: bolder;
+}
+.logo{
+    font-weight: bolder;
+    color: white;
+    font-size: medium;
+    mix-blend-mode: hard-light;
+}
+.name{
+    color: white;
+    font-size: 68px;
+}
+.scroll{
+    margin-top: 9.9%;
+}
+img{
+    border-radius: 50px;
+}

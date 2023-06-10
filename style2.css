@@ -1,0 +1,139 @@
+.scroll-downs {
+    
+    
+    margin: auto;
+
+    width :34px;
+    height: 55px;
+  }
+  .mousey {
+    width: 3px;
+    padding: 10px 15px;
+    height: 35px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    opacity: 0.75;
+    box-sizing: content-box;
+  }
+  .scroller {
+    width: 3px;
+    height: 10px;
+    border-radius: 25%;
+    background-color: #fff;
+    animation-name: scroll;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+    animation-iteration-count: infinite;
+  }
+  @keyframes scroll {
+    0% { opacity: 0; }
+    10% { transform: translateY(0); opacity: 1; }
+    100% { transform: translateY(15px); opacity: 0;}
+  }
+  /* .background{
+    background-image: url(guerilla-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  } */
+  .toendown{
+    padding-top: 15%;
+  }
+  .logo-line{
+    border-radius: 50px;
+    
+  }
+  .guerilla{
+    position: absolute;
+    top: 55px;
+    
+  }
+  .headylogo{
+    font-size: 25px;
+  }
+  .magicpattern { 
+    margin-top: 15%;
+    width: 100%;
+    
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: repeat;
+    background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cdefs%3E%3CclipPath id=%22a%22%3E%3Cpath fill=%22currentColor%22 d=%22M908 622.5Q838 745 745.5 858T511 936.5Q369 902 239 843T58 642Q7 500 75.5 371t190-173Q387 154 505 138t200 69q82 85 177.5 189T908 622.5Z%22%2F%3E%3C%2FclipPath%3E%3C%2Fdefs%3E%3Cg clip-path=%22url(%23a)%22%3E%3Cpath fill=%22%23444cf7%22 d=%22M908 622.5Q838 745 745.5 858T511 936.5Q369 902 239 843T58 642Q7 500 75.5 371t190-173Q387 154 505 138t200 69q82 85 177.5 189T908 622.5Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+  }
+  .services-container{
+    background: rgb(0,6,36);
+    background: linear-gradient(50.5deg, rgba(0,6,36,1) 52%, rgba(9,121,118,1) 52%, rgba(0,212,255,1) 100%); 
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+  }
+  .software{
+    background: rgb(0,6,36);
+    background: linear-gradient(136.2deg, rgba(0,6,36,1) 52%, rgba(9,121,118,1) 52%, rgba(0,212,255,1) 100%); 
+  }
+  .Website{
+    background: rgb(0,6,36);
+    background: linear-gradient(43.7deg, rgba(0,6,36,1) 52%, rgba(9,121,118,1) 52%, rgba(0,212,255,1) 100%);
+  }
+  .Socialmedia{
+    background: rgb(0,6,36);
+    background: linear-gradient(136.2deg, rgba(0,6,36,1) 52%, rgba(9,121,118,1) 52%, rgba(0,212,255,1) 100%);
+  }
+  .cybersecurity{
+    background: rgb(0,6,36);
+    background: linear-gradient(45.2deg, rgba(0,6,36,1) 52%, rgba(9,121,118,1) 52%, rgba(0,212,255,1) 100%);
+  }
+  .contact{
+    background: rgb(0,6,36);
+    background: linear-gradient(144deg, rgba(0,6,36,1) 52%, rgba(9,121,118,1) 52%, rgba(0,212,255,1) 100%);
+  }
+  .second-main{
+    background: rgb(0,6,36);
+    background: linear-gradient(90deg, rgba(0,6,36,1) 52%, rgba(9,121,118,1) 52%, rgba(0,212,255,1) 100%);
+  }
+  .imagesbox{
+    border-radius: 50px;
+  }
+  .namebox,.emailbox,.mssgbox{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 5%;
+    border: none;
+    outline: none;
+    
+  }
+  input{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+  
+    border: none;
+    outline: none;
+  }
+  textarea{
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+  
+    border: none;
+    outline: none;
+  }
+  .submit{
+    margin-top: 15%;
+    width: 60%;
+    height: 50px;
+    border-radius: 10px;
+  }
+  .oppp{
+    color: #fff;
+  }
+  .imagesbox2{
+    border-radius: 150px;
+  }
+  .client-blox{
+    margin-top: 8%;
+  }
+  .nsbox{
+    margin-left: 5%;
+  }
